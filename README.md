@@ -1,14 +1,14 @@
-# OrderFlow — API REST de E-commerce com Spring Boot 4 e JPA
+# OrderFlow — API REST de E-commerce com Spring Boot e JPA
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-> API REST para gestão de pedidos de e-commerce, construída com Spring Boot 4, JPA/Hibernate e PostgreSQL — com banco H2 em memória para testes.
+> API REST para gestão de pedidos de e-commerce, construída com Spring Boot, JPA/Hibernate e PostgreSQL — com banco H2 em memória para testes.
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **OrderFlow** é uma API REST completa para um domínio de e-commerce, cobrindo o ciclo de vida de um pedido: clientes fazem pedidos com múltiplos itens de produtos categorizados, e cada pedido passa por um fluxo de status (aguardando pagamento → pago → em transporte → entregue / cancelado). O projeto demonstra na prática:
 
@@ -19,7 +19,7 @@ O **OrderFlow** é uma API REST completa para um domínio de e-commerce, cobrind
 
 ---
 
-## 🚀 Endpoints da API
+## Endpoints da API
 
 ### Users `/users`
 
@@ -54,7 +54,7 @@ O **OrderFlow** é uma API REST completa para um domínio de e-commerce, cobrind
 
 ---
 
-## 🗂️ Modelo de Domínio
+## Modelo de Domínio
 
 ```
 User ──────────────────────── Order
@@ -90,7 +90,7 @@ User ──────────────────────── Or
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 resources/              ← Controllers REST (@RestController)
@@ -125,7 +125,7 @@ Todas as exceções retornam um corpo de erro padronizado:
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Java 25**
 - **Spring Boot 4.0.3** (Spring MVC, Spring Data JPA)
@@ -136,7 +136,7 @@ Todas as exceções retornam um corpo de erro padronizado:
 
 ---
 
-## ⚙️ Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
@@ -187,7 +187,7 @@ E ative o perfil:
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src/
