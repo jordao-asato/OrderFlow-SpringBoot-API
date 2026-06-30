@@ -234,7 +234,7 @@ src/
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Jordão Asato**
 
